@@ -6,14 +6,18 @@
     <title>Document</title>
 </head>
 <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
     .div1{
-        height: 40px;
         width: 100%;
         border: 1px solid gray;
         background-color: rgb(219, 168, 178);
 
     }
     .div2{
+        position: -webkit-sticky;
+        position: sticky;
         height: 100px;
         width: 100%;
         border: 1px solid gray;
@@ -21,16 +25,126 @@
         
 
     }
+    .div20{
+        display: block;
+        padding-left: 230px;
+        float: left;
+    }
+    .div21{
+        font-family:Arial, Helvetica, sans-serif ;
+        float: left;
+        font-size: 16px;
+        padding-left: 50px;
+        text-align: center;
+        margin-top: 35px;
+        color: rgb(248, 245, 242);
+    }
+    .div22{
+        font-family:Arial, Helvetica, sans-serif ;
+        float: left;
+        font-size: 15px;
+        padding-left: 50px;
+        text-align: center;
+        margin-top: 35px;
+        color: rgb(248, 245, 242);
+    }
+    .div23{
+        font-family:Arial, Helvetica, sans-serif ;
+        float: left;
+        font-size: 16px;
+        padding-left: 50px;
+        text-align: center;
+        margin-top: 35px;
+        color: rgb(248, 245, 242);
+    }
+    .div24{
+        font-family:Arial, Helvetica, sans-serif ;
+        float: left;
+        font-size: 16px;
+        padding-left: 50px;
+        text-align: center;
+        margin-top: 35px;
+        color: rgb(248, 245, 242);
+    }
+
     .div3{
         height:450px;
         width: 100%;
-        border: 1px solid gray;
+        
         background-image: url(lady.jpeg);
 
     }
-   
-    
 
+    .div31{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        color: rgb(246, 247, 248);
+        padding-left: 570px;
+        padding-top: 20px; 
+        position: relative;
+        
+    }
+    .dvi32{
+       position: absolute;
+        padding-left: 554px;
+        padding-top: 20px;
+        position: relative;
+        
+    }
+    .div33{
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        color: rgb(246, 247, 248);
+        padding-left: 570px;
+        padding-top: 20px;
+        position: relative;
+    }
+    .bt1{
+        margin-top: 15px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 570px;
+        position: absolute;
+        font-weight: bold;
+
+    }
+    .bt2{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 570px;
+        position: relative;
+        margin-top: 70px;
+        font-weight: bold;
+    }
+   a{
+        text-decoration: none;
+        color: aliceblue;
+   }
+    .div21:hover a{
+        color: rgb(238, 154, 222);
+    }
+    .div22:hover a{
+        color: rgb(238, 154, 222);
+    }
+    .div23:hover a{
+        color: rgb(238, 154, 222);
+    }
+    .div24:hover a{
+        color: rgb(238, 154, 222);
+    }
+    .bt1 a{
+        color: black;
+        opacity: 0.7;
+    }
+    .bt2 a{
+        color: black;
+        opacity: 0.7;
+    }
 </style>
 <body>
     <div class="div1">
@@ -39,13 +153,20 @@
     </div>
 
     <div class="div2">
-       <img src="logo.png" alt="">
+       <div class="div20"><img src="logo.png" alt=""></div>
+       <div class="div21"><a href="#shop">SHOP NOW</a></div>
+       <div class="div22"><a href="#review">REVIEWS</a></div>
+       <div class="div23"><a href="#about">ABOUT US</a></div>
+       <div class="div24"><a href="#contact">CONTACT US</a></div>
     </div>
 
     <div class="div3">
-         <img src="chempakom.png" style="margin-left: 300px; margin-top: 150px;" alt=""> 
-        
-       
+        <div class="div31">Welcome to</div>
+         
+      <div class="dvi32"><img src="chempakom.png"  alt=""> </div>
+       <div class="div33">Online Shop</div>
+       <button class="bt1"><a href="#shopn">SHOP NOW</a></button>
+       <BUTTON  class="bt2"><a href="#discount">DISCOUNT SALE</a></BUTTON>
    
         
     </div>
